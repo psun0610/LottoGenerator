@@ -12,7 +12,7 @@ button.addEventListener('click', function() {
   // 공을 만들어서 =>  6개를 만들어서
   const numbers = _.sampleSize(_.range(1, 46), 6)
   console.log(numbers)
-
+  numbers.sort((a, b) => a - b);
   for (number of numbers) {
     const ball = document.createElement('div')
     ball.classList.add('ball')

@@ -11,6 +11,8 @@ body {
   margin: 2rem 0;
   display: flex;
   justify-content: center;
+  animation-name: scale-and-fade-in;
+  animation-duration: 1s;
 }
 .ball-div {
   height: 100%;
@@ -97,5 +99,16 @@ h1 {
     border-radius: 4.8000vw;
     border: 0.1000vw solid black;
     font-size: 1.6vw;
+  }
+}
+
+@keyframes scale-and-fade-in {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
   }
 }

@@ -43,7 +43,11 @@ button.addEventListener('click', function() {
 
   // 컨테이너를 결과 영역에 붙인다. 
   const result = document.querySelector('#result')
-  result.appendChild(ballContainer)
+  // 번호 뒤에 추가
+  // result.appendChild(ballContainer)
+  // 번호 앞에 추가
+    result.prepend(ballContainer)
+
 })
 
 // 로또 공은 5가지 색깔로 되어 있습니다.

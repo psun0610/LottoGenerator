@@ -63,6 +63,7 @@ h1 {
   padding: .8rem 1rem;
   border-radius: 3rem;
   border: 1px solid black;
+  font-size: 1rem;
 }
 
 .button-container>button:hover {
